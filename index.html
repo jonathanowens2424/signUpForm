@@ -8,7 +8,7 @@
   </head>
   <body>
     <main>
-      <section>
+      <section class="desc">
         <p>
           This is not a real online service! You know you need something like
           this in your life to help you realize your deepest dreams. Sign up now
@@ -16,7 +16,7 @@
         </p>
         <p>You know you want to.</p>
       </section>
-      <form>
+      <form class="form">
         <p>Let's do this!</p>
         <label for="first-name"> First Name:</label>
         <input type="text" name="first-name" id="first-name" />
@@ -30,12 +30,18 @@
         <input type="password" name="password" id="password" />
         <label for="confirmPassword"> Confirm Password:</label>
         <input type="password" name="confirmPassword" id="confirmPassword" />
-        <button>Create Account</button>
-        <p>Already have an account? Log in</p>
+        <div class="submit-section">
+          <button>Create Account</button>
+          <p>Already have an account? Log in</p>
+        </div>
       </form>
     </main>
     <aside id="image">
-      <p>Odin</p>
+      <div>
+        <img src="images/odin-lined.png" alt="Odin logo" />
+        <p>Odin</p>
+      </div>
+      <p>Photo by Halie West on Unsplash</p>
     </aside>
   </body>
 </html>
